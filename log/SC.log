@@ -1,0 +1,524 @@
+2025-06-03 17:51:52,621 | INFO     | 数仓测试日志:setUpClass:18 | 上传接口测试开始
+2025-06-03 17:51:55,409 | INFO     | 数仓测试日志:test_upload_method:126 | 1.xlsx返回的异常文件已保存，保存路径为：D:\Pycharm\Pycharm_file\InterFaceAutoTest\test_data\error_file\FeedBack_1748944314_1.xlsx
+2025-06-03 17:51:55,410 | INFO     | 数仓测试日志:test_upload_method:130 | ✅ 测试用例01【验证通过】-上传成功-一个文件至多只能有三个sheet：新增、删除、修改，每一类更新只能放在同一种sheet中
+2025-06-03 17:51:57,807 | INFO     | 数仓测试日志:test_upload_method:126 | 2.xlsx返回的异常文件已保存，保存路径为：D:\Pycharm\Pycharm_file\InterFaceAutoTest\test_data\error_file\FeedBack_1748944317_2.xlsx
+2025-06-03 17:51:57,807 | INFO     | 数仓测试日志:test_upload_method:130 | ✅ 测试用例02【验证通过】-上传失败-一个sheet中，其中一条记录未通过，则整个sheet的任意一条更新都不生效
+2025-06-03 17:52:00,237 | INFO     | 数仓测试日志:test_upload_method:52 | ✅ 测试用例03【验证通过】-上传成功：多sheet多行数据
+2025-06-03 17:52:00,520 | INFO     | 数仓测试日志:test_upload_method:126 | 4.xlsx返回的异常文件已保存，保存路径为：D:\Pycharm\Pycharm_file\InterFaceAutoTest\test_data\error_file\FeedBack_1748944321_4.xlsx
+2025-06-03 17:52:00,520 | INFO     | 数仓测试日志:test_upload_method:130 | ✅ 测试用例04【验证通过】-上传失败-基础校验不通过
+2025-06-03 17:52:00,520 | INFO     | 数仓测试日志:tearDownClass:23 | 上传接口测试结束
+2025-06-03 17:55:59,855 | INFO     | 数仓测试日志:setUpClass:18 | 质检接口测试开始
+2025-06-03 17:56:01,139 | INFO     | 数仓测试日志:test_inspection_method:65 | ✅ 测试用例01【断言成功】-上传成功-一个文件至多只能有三个sheet：新增、删除、修改，每一类更新只能放在同一种sheet中
+2025-06-03 17:56:01,232 | INFO     | 数仓测试日志:test_inspection_method:77 | 1.xlsx返回的异常文件已保存，保存路径为：D:\Pycharm\Pycharm_file\InterFaceAutoTest\test_data\error_file\FeedBack_1748944561_1.xlsx
+2025-06-03 17:56:02,340 | INFO     | 数仓测试日志:test_inspection_method:65 | ✅ 测试用例02【断言成功】-上传失败-一个sheet中，其中一条记录未通过，则整个sheet的任意一条更新都不生效
+2025-06-03 17:56:02,448 | INFO     | 数仓测试日志:test_inspection_method:77 | 2.xlsx返回的异常文件已保存，保存路径为：D:\Pycharm\Pycharm_file\InterFaceAutoTest\test_data\error_file\FeedBack_1748944563_2.xlsx
+2025-06-03 17:56:04,466 | INFO     | 数仓测试日志:test_inspection_method:43 | ✅ 测试用例03【断言成功】-上传失败：多sheet多行数据
+2025-06-03 17:56:04,466 | INFO     | 数仓测试日志:tearDownClass:23 | 质检接口测试结束
+2025-06-03 17:59:30,445 | INFO     | 数仓测试日志:setUpClass:18 | 质检接口测试开始
+2025-06-03 17:59:31,759 | INFO     | 数仓测试日志:test_inspection_method:76 | 1.xlsx返回的异常文件已保存，保存路径为：D:\Pycharm\Pycharm_file\InterFaceAutoTest\test_data\error_file\FeedBack_1748944772_1.xlsx
+2025-06-03 17:59:31,783 | INFO     | 数仓测试日志:test_inspection_method:91 | ✅ 测试用例01【验证通过】-上传成功-一个文件至多只能有三个sheet：新增、删除、修改，每一类更新只能放在同一种sheet中
+2025-06-03 17:59:32,938 | INFO     | 数仓测试日志:test_inspection_method:76 | 2.xlsx返回的异常文件已保存，保存路径为：D:\Pycharm\Pycharm_file\InterFaceAutoTest\test_data\error_file\FeedBack_1748944773_2.xlsx
+2025-06-03 17:59:32,960 | INFO     | 数仓测试日志:test_inspection_method:91 | ✅ 测试用例02【验证通过】-上传失败-一个sheet中，其中一条记录未通过，则整个sheet的任意一条更新都不生效
+2025-06-03 17:59:35,041 | INFO     | 数仓测试日志:test_inspection_method:43 | ✅ 测试用例03【验证通过】-上传失败：多sheet多行数据
+2025-06-03 17:59:35,042 | INFO     | 数仓测试日志:tearDownClass:23 | 质检接口测试结束
+2025-06-03 18:00:08,625 | INFO     | 数仓测试日志:setUpClass:18 | 质检接口测试开始
+2025-06-03 18:00:09,925 | INFO     | 数仓测试日志:test_inspection_method:76 | 1.xlsx返回的异常文件已保存，保存路径为：D:\Pycharm\Pycharm_file\InterFaceAutoTest\test_data\error_file\FeedBack_1748944810_1.xlsx
+2025-06-03 18:00:09,952 | INFO     | 数仓测试日志:test_inspection_method:91 | ✅ 测试用例01【验证通过】-上传成功-一个文件至多只能有三个sheet：新增、删除、修改，每一类更新只能放在同一种sheet中
+2025-06-03 18:00:11,111 | INFO     | 数仓测试日志:test_inspection_method:76 | 2.xlsx返回的异常文件已保存，保存路径为：D:\Pycharm\Pycharm_file\InterFaceAutoTest\test_data\error_file\FeedBack_1748944811_2.xlsx
+2025-06-03 18:00:11,134 | INFO     | 数仓测试日志:test_inspection_method:91 | ✅ 测试用例02【验证通过】-上传失败-一个sheet中，其中一条记录未通过，则整个sheet的任意一条更新都不生效
+2025-06-03 18:00:13,143 | INFO     | 数仓测试日志:test_inspection_method:43 | ✅ 测试用例03【验证通过】-上传失败：多sheet多行数据
+2025-06-03 18:00:13,145 | INFO     | 数仓测试日志:tearDownClass:23 | 质检接口测试结束
+2025-06-03 18:00:13,156 | INFO     | 数仓测试日志:setUpClass:18 | 上传接口测试开始
+2025-06-03 18:00:15,922 | INFO     | 数仓测试日志:test_upload_method:126 | 1.xlsx返回的异常文件已保存，保存路径为：D:\Pycharm\Pycharm_file\InterFaceAutoTest\test_data\error_file\FeedBack_1748944815_1.xlsx
+2025-06-03 18:00:15,922 | INFO     | 数仓测试日志:test_upload_method:130 | ✅ 测试用例01【验证通过】-上传成功-一个文件至多只能有三个sheet：新增、删除、修改，每一类更新只能放在同一种sheet中
+2025-06-03 18:00:17,860 | INFO     | 数仓测试日志:test_upload_method:126 | 2.xlsx返回的异常文件已保存，保存路径为：D:\Pycharm\Pycharm_file\InterFaceAutoTest\test_data\error_file\FeedBack_1748944817_2.xlsx
+2025-06-03 18:00:17,860 | INFO     | 数仓测试日志:test_upload_method:130 | ✅ 测试用例02【验证通过】-上传失败-一个sheet中，其中一条记录未通过，则整个sheet的任意一条更新都不生效
+2025-06-03 18:00:20,199 | INFO     | 数仓测试日志:test_upload_method:52 | ✅ 测试用例03【验证通过】-上传成功：多sheet多行数据
+2025-06-03 18:00:20,463 | INFO     | 数仓测试日志:test_upload_method:126 | 4.xlsx返回的异常文件已保存，保存路径为：D:\Pycharm\Pycharm_file\InterFaceAutoTest\test_data\error_file\FeedBack_1748944821_4.xlsx
+2025-06-03 18:00:20,465 | INFO     | 数仓测试日志:test_upload_method:130 | ✅ 测试用例04【验证通过】-上传失败-基础校验不通过
+2025-06-03 18:00:20,466 | INFO     | 数仓测试日志:tearDownClass:23 | 上传接口测试结束
+2025-06-03 18:02:33,355 | INFO     | 数仓测试日志:setUpClass:18 | 上传接口测试开始
+2025-06-03 18:02:36,568 | INFO     | 数仓测试日志:test_upload_method:126 | 1.xlsx返回的异常文件已保存，保存路径为：D:\Pycharm\Pycharm_file\InterFaceAutoTest\test_data\error_file\FeedBack_1748944955_1.xlsx
+2025-06-03 18:02:36,592 | INFO     | 数仓测试日志:test_upload_method:142 | ✅ 测试用例01【验证通过】-上传成功-一个文件至多只能有三个sheet：新增、删除、修改，每一类更新只能放在同一种sheet中
+2025-06-03 18:02:38,667 | INFO     | 数仓测试日志:test_upload_method:126 | 2.xlsx返回的异常文件已保存，保存路径为：D:\Pycharm\Pycharm_file\InterFaceAutoTest\test_data\error_file\FeedBack_1748944958_2.xlsx
+2025-06-03 18:02:38,692 | INFO     | 数仓测试日志:test_upload_method:142 | ✅ 测试用例02【验证通过】-上传失败-一个sheet中，其中一条记录未通过，则整个sheet的任意一条更新都不生效
+2025-06-03 18:02:41,320 | INFO     | 数仓测试日志:test_upload_method:52 | ✅ 测试用例03【验证通过】-上传成功：多sheet多行数据
+2025-06-03 18:02:41,587 | INFO     | 数仓测试日志:test_upload_method:126 | 4.xlsx返回的异常文件已保存，保存路径为：D:\Pycharm\Pycharm_file\InterFaceAutoTest\test_data\error_file\FeedBack_1748944962_4.xlsx
+2025-06-03 18:02:41,603 | INFO     | 数仓测试日志:test_upload_method:142 | ✅ 测试用例04【验证通过】-上传失败-基础校验不通过
+2025-06-03 18:02:41,603 | INFO     | 数仓测试日志:tearDownClass:23 | 上传接口测试结束
+2025-06-03 18:19:05,792 | INFO     | 数仓测试日志:setUpClass:18 | 质检接口测试开始
+2025-06-03 18:19:07,100 | INFO     | 数仓测试日志:test_inspection_method:75 | 1.xlsx返回的异常文件已保存，保存路径为：D:\Pycharm\Pycharm_file\InterFaceAutoTest\test_data\error_file\FeedBack_1748945947_1.xlsx
+2025-06-03 18:19:07,127 | INFO     | 数仓测试日志:success_log:78 | ✅ 测试用例01【验证通过】-上传成功-一个文件至多只能有三个sheet：新增、删除、修改，每一类更新只能放在同一种sheet中
+2025-06-03 18:19:08,250 | INFO     | 数仓测试日志:test_inspection_method:75 | 2.xlsx返回的异常文件已保存，保存路径为：D:\Pycharm\Pycharm_file\InterFaceAutoTest\test_data\error_file\FeedBack_1748945948_2.xlsx
+2025-06-03 18:19:08,275 | INFO     | 数仓测试日志:success_log:78 | ✅ 测试用例02【验证通过】-上传失败-一个sheet中，其中一条记录未通过，则整个sheet的任意一条更新都不生效
+2025-06-03 18:19:10,535 | INFO     | 数仓测试日志:success_log:78 | ✅ 测试用例03【验证通过】-上传失败：多sheet多行数据
+2025-06-03 18:19:10,537 | INFO     | 数仓测试日志:tearDownClass:23 | 质检接口测试结束
+2025-06-03 18:19:10,543 | INFO     | 数仓测试日志:setUpClass:18 | 上传接口测试开始
+2025-06-03 18:19:13,166 | INFO     | 数仓测试日志:test_upload_method:126 | 1.xlsx返回的异常文件已保存，保存路径为：D:\Pycharm\Pycharm_file\InterFaceAutoTest\test_data\error_file\FeedBack_1748945952_1.xlsx
+2025-06-03 18:19:13,192 | INFO     | 数仓测试日志:success_log:78 | ✅ 测试用例01【验证通过】-上传成功-一个文件至多只能有三个sheet：新增、删除、修改，每一类更新只能放在同一种sheet中
+2025-06-03 18:19:15,299 | INFO     | 数仓测试日志:test_upload_method:126 | 2.xlsx返回的异常文件已保存，保存路径为：D:\Pycharm\Pycharm_file\InterFaceAutoTest\test_data\error_file\FeedBack_1748945955_2.xlsx
+2025-06-03 18:19:15,323 | INFO     | 数仓测试日志:success_log:78 | ✅ 测试用例02【验证通过】-上传失败-一个sheet中，其中一条记录未通过，则整个sheet的任意一条更新都不生效
+2025-06-03 18:19:17,688 | INFO     | 数仓测试日志:success_log:78 | ✅ 测试用例03【验证通过】-上传成功：多sheet多行数据
+2025-06-03 18:19:17,962 | INFO     | 数仓测试日志:test_upload_method:126 | 4.xlsx返回的异常文件已保存，保存路径为：D:\Pycharm\Pycharm_file\InterFaceAutoTest\test_data\error_file\FeedBack_1748945958_4.xlsx
+2025-06-03 18:19:17,977 | INFO     | 数仓测试日志:success_log:78 | ✅ 测试用例04【验证通过】-上传失败-基础校验不通过
+2025-06-03 18:19:17,977 | INFO     | 数仓测试日志:tearDownClass:23 | 上传接口测试结束
+2025-06-03 22:02:30,050 | INFO     | 数仓测试日志:setUpClass:18 | 上传接口测试开始
+2025-06-03 22:02:47,043 | INFO     | 数仓测试日志:test_upload_method:148 | 4.xlsx返回的异常文件已保存，保存路径为：D:\Pycharm\Pycharm_file\InterFaceAutoTest\test_data\error_file\FeedBack_1748959367_4.xlsx
+2025-06-03 22:02:47,061 | INFO     | 数仓测试日志:success_log:78 | ✅ 测试用例04【验证通过】-上传失败-基础校验不通过
+2025-06-03 22:02:47,061 | INFO     | 数仓测试日志:tearDownClass:23 | 上传接口测试结束
+2025-06-03 22:05:03,463 | INFO     | 数仓测试日志:setUpClass:18 | 上传接口测试开始
+2025-06-03 22:05:04,287 | ERROR    | 数仓测试日志:assert_log:66 | 01-上传成功-一个文件至多只能有三个sheet：新增、删除、修改，每一类更新只能放在同一种sheet中：：测试失败
+Traceback (most recent call last):
+  File "D:\Pycharm\Pycharm_file\InterFaceAutoTest\demo.py", line 94, in test_upload_method
+    self.assertIn(v, basic_validation_failed_sheet_message.values())
+  File "D:\Python\Lib\unittest\case.py", line 1152, in assertIn
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "D:\Python\Lib\unittest\case.py", line 715, in fail
+    raise self.failureException(msg)
+AssertionError: '人才学科变更' not found in dict_values(['暂未发现异常', '未通过基础校验，错误原因：与数据库已有数据重复'])
+2025-06-03 22:05:04,292 | ERROR    | 数仓测试日志:assert_log:67 | 请求数据是{'excelFile': '1.xlsx', 'ignoreexp': 0}
+Traceback (most recent call last):
+  File "D:\Pycharm\Pycharm_file\InterFaceAutoTest\demo.py", line 94, in test_upload_method
+    self.assertIn(v, basic_validation_failed_sheet_message.values())
+  File "D:\Python\Lib\unittest\case.py", line 1152, in assertIn
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "D:\Python\Lib\unittest\case.py", line 715, in fail
+    raise self.failureException(msg)
+AssertionError: '人才学科变更' not found in dict_values(['暂未发现异常', '未通过基础校验，错误原因：与数据库已有数据重复'])
+2025-06-03 22:05:04,293 | ERROR    | 数仓测试日志:assert_log:68 | 期望结果是{'新增明细': '人才学科变更', '修改明细': '近一年两个月工单更新过的学科被变更'}
+Traceback (most recent call last):
+  File "D:\Pycharm\Pycharm_file\InterFaceAutoTest\demo.py", line 94, in test_upload_method
+    self.assertIn(v, basic_validation_failed_sheet_message.values())
+  File "D:\Python\Lib\unittest\case.py", line 1152, in assertIn
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "D:\Python\Lib\unittest\case.py", line 715, in fail
+    raise self.failureException(msg)
+AssertionError: '人才学科变更' not found in dict_values(['暂未发现异常', '未通过基础校验，错误原因：与数据库已有数据重复'])
+2025-06-03 22:05:04,294 | ERROR    | 数仓测试日志:assert_log:69 | 实际结果是{'修改明细': '暂未发现异常', '新增明细': '未通过基础校验，错误原因：与数据库已有数据重复'}
+Traceback (most recent call last):
+  File "D:\Pycharm\Pycharm_file\InterFaceAutoTest\demo.py", line 94, in test_upload_method
+    self.assertIn(v, basic_validation_failed_sheet_message.values())
+  File "D:\Python\Lib\unittest\case.py", line 1152, in assertIn
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "D:\Python\Lib\unittest\case.py", line 715, in fail
+    raise self.failureException(msg)
+AssertionError: '人才学科变更' not found in dict_values(['暂未发现异常', '未通过基础校验，错误原因：与数据库已有数据重复'])
+2025-06-03 22:05:04,974 | ERROR    | 数仓测试日志:assert_log:66 | 02-上传失败-一个sheet中，其中一条记录未通过，则整个sheet的任意一条更新都不生效：：测试失败
+Traceback (most recent call last):
+  File "D:\Pycharm\Pycharm_file\InterFaceAutoTest\demo.py", line 94, in test_upload_method
+    self.assertIn(v, basic_validation_failed_sheet_message.values())
+  File "D:\Python\Lib\unittest\case.py", line 1152, in assertIn
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "D:\Python\Lib\unittest\case.py", line 715, in fail
+    raise self.failureException(msg)
+AssertionError: '人才学科变更' not found in dict_values(['暂未发现异常', '未通过基础校验，错误原因：与数据库已有数据重复'])
+2025-06-03 22:05:04,975 | ERROR    | 数仓测试日志:assert_log:67 | 请求数据是{'excelFile': '2.xlsx', 'ignoreexp': 0}
+Traceback (most recent call last):
+  File "D:\Pycharm\Pycharm_file\InterFaceAutoTest\demo.py", line 94, in test_upload_method
+    self.assertIn(v, basic_validation_failed_sheet_message.values())
+  File "D:\Python\Lib\unittest\case.py", line 1152, in assertIn
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "D:\Python\Lib\unittest\case.py", line 715, in fail
+    raise self.failureException(msg)
+AssertionError: '人才学科变更' not found in dict_values(['暂未发现异常', '未通过基础校验，错误原因：与数据库已有数据重复'])
+2025-06-03 22:05:04,975 | ERROR    | 数仓测试日志:assert_log:68 | 期望结果是{'新增明细': '人才学科变更'}
+Traceback (most recent call last):
+  File "D:\Pycharm\Pycharm_file\InterFaceAutoTest\demo.py", line 94, in test_upload_method
+    self.assertIn(v, basic_validation_failed_sheet_message.values())
+  File "D:\Python\Lib\unittest\case.py", line 1152, in assertIn
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "D:\Python\Lib\unittest\case.py", line 715, in fail
+    raise self.failureException(msg)
+AssertionError: '人才学科变更' not found in dict_values(['暂未发现异常', '未通过基础校验，错误原因：与数据库已有数据重复'])
+2025-06-03 22:05:04,976 | ERROR    | 数仓测试日志:assert_log:69 | 实际结果是{'修改明细': '暂未发现异常', '新增明细': '未通过基础校验，错误原因：与数据库已有数据重复'}
+Traceback (most recent call last):
+  File "D:\Pycharm\Pycharm_file\InterFaceAutoTest\demo.py", line 94, in test_upload_method
+    self.assertIn(v, basic_validation_failed_sheet_message.values())
+  File "D:\Python\Lib\unittest\case.py", line 1152, in assertIn
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "D:\Python\Lib\unittest\case.py", line 715, in fail
+    raise self.failureException(msg)
+AssertionError: '人才学科变更' not found in dict_values(['暂未发现异常', '未通过基础校验，错误原因：与数据库已有数据重复'])
+2025-06-03 22:05:10,443 | INFO     | 数仓测试日志:success_log:78 | ✅ 测试用例03【验证通过】-上传成功：多sheet多行数据
+2025-06-03 22:05:10,710 | INFO     | 数仓测试日志:test_upload_method:148 | 4.xlsx返回的异常文件已保存，保存路径为：D:\Pycharm\Pycharm_file\InterFaceAutoTest\test_data\error_file\FeedBack_1748959510_4.xlsx
+2025-06-03 22:05:10,725 | INFO     | 数仓测试日志:success_log:78 | ✅ 测试用例04【验证通过】-上传失败-基础校验不通过
+2025-06-03 22:05:10,725 | INFO     | 数仓测试日志:tearDownClass:23 | 上传接口测试结束
+2025-06-03 22:06:09,759 | INFO     | 数仓测试日志:setUpClass:18 | 上传接口测试开始
+2025-06-03 22:06:12,360 | INFO     | 数仓测试日志:test_upload_method:148 | 1.xlsx返回的异常文件已保存，保存路径为：D:\Pycharm\Pycharm_file\InterFaceAutoTest\test_data\error_file\FeedBack_1748959571_1.xlsx
+2025-06-03 22:06:12,390 | INFO     | 数仓测试日志:success_log:78 | ✅ 测试用例01【验证通过】-上传成功-一个文件至多只能有三个sheet：新增、删除、修改，每一类更新只能放在同一种sheet中
+2025-06-03 22:06:14,339 | INFO     | 数仓测试日志:test_upload_method:148 | 2.xlsx返回的异常文件已保存，保存路径为：D:\Pycharm\Pycharm_file\InterFaceAutoTest\test_data\error_file\FeedBack_1748959573_2.xlsx
+2025-06-03 22:06:14,366 | INFO     | 数仓测试日志:success_log:78 | ✅ 测试用例02【验证通过】-上传失败-一个sheet中，其中一条记录未通过，则整个sheet的任意一条更新都不生效
+2025-06-03 22:06:16,570 | INFO     | 数仓测试日志:success_log:78 | ✅ 测试用例03【验证通过】-上传成功：多sheet多行数据
+2025-06-03 22:06:16,836 | INFO     | 数仓测试日志:test_upload_method:148 | 4.xlsx返回的异常文件已保存，保存路径为：D:\Pycharm\Pycharm_file\InterFaceAutoTest\test_data\error_file\FeedBack_1748959576_4.xlsx
+2025-06-03 22:06:16,851 | INFO     | 数仓测试日志:success_log:78 | ✅ 测试用例04【验证通过】-上传失败-基础校验不通过
+2025-06-03 22:06:16,851 | INFO     | 数仓测试日志:tearDownClass:23 | 上传接口测试结束
+2025-06-03 22:06:31,022 | INFO     | 数仓测试日志:setUpClass:18 | 上传接口测试开始
+2025-06-03 22:06:35,435 | INFO     | 数仓测试日志:test_upload_method:148 | 1.xlsx返回的异常文件已保存，保存路径为：D:\Pycharm\Pycharm_file\InterFaceAutoTest\test_data\error_file\FeedBack_1748959592_1.xlsx
+2025-06-03 22:06:35,459 | INFO     | 数仓测试日志:success_log:78 | ✅ 测试用例01【验证通过】-上传成功-一个文件至多只能有三个sheet：新增、删除、修改，每一类更新只能放在同一种sheet中
+2025-06-03 22:06:37,392 | INFO     | 数仓测试日志:test_upload_method:148 | 2.xlsx返回的异常文件已保存，保存路径为：D:\Pycharm\Pycharm_file\InterFaceAutoTest\test_data\error_file\FeedBack_1748959596_2.xlsx
+2025-06-03 22:06:37,418 | INFO     | 数仓测试日志:success_log:78 | ✅ 测试用例02【验证通过】-上传失败-一个sheet中，其中一条记录未通过，则整个sheet的任意一条更新都不生效
+2025-06-03 22:06:39,750 | INFO     | 数仓测试日志:success_log:78 | ✅ 测试用例03【验证通过】-上传成功：多sheet多行数据
+2025-06-03 22:06:40,005 | INFO     | 数仓测试日志:test_upload_method:148 | 4.xlsx返回的异常文件已保存，保存路径为：D:\Pycharm\Pycharm_file\InterFaceAutoTest\test_data\error_file\FeedBack_1748959600_4.xlsx
+2025-06-03 22:06:40,023 | INFO     | 数仓测试日志:success_log:78 | ✅ 测试用例04【验证通过】-上传失败-基础校验不通过
+2025-06-03 22:06:40,023 | INFO     | 数仓测试日志:tearDownClass:23 | 上传接口测试结束
+2025-06-03 22:06:54,960 | INFO     | 数仓测试日志:setUpClass:18 | 上传接口测试开始
+2025-06-03 22:06:57,572 | INFO     | 数仓测试日志:test_upload_method:148 | 1.xlsx返回的异常文件已保存，保存路径为：D:\Pycharm\Pycharm_file\InterFaceAutoTest\test_data\error_file\FeedBack_1748959616_1.xlsx
+2025-06-03 22:06:57,604 | INFO     | 数仓测试日志:success_log:78 | ✅ 测试用例01【验证通过】-上传成功-一个文件至多只能有三个sheet：新增、删除、修改，每一类更新只能放在同一种sheet中
+2025-06-03 22:06:59,575 | INFO     | 数仓测试日志:test_upload_method:148 | 2.xlsx返回的异常文件已保存，保存路径为：D:\Pycharm\Pycharm_file\InterFaceAutoTest\test_data\error_file\FeedBack_1748959618_2.xlsx
+2025-06-03 22:06:59,600 | INFO     | 数仓测试日志:success_log:78 | ✅ 测试用例02【验证通过】-上传失败-一个sheet中，其中一条记录未通过，则整个sheet的任意一条更新都不生效
+2025-06-03 22:07:02,011 | INFO     | 数仓测试日志:success_log:78 | ✅ 测试用例03【验证通过】-上传成功：多sheet多行数据
+2025-06-03 22:07:02,264 | INFO     | 数仓测试日志:test_upload_method:148 | 4.xlsx返回的异常文件已保存，保存路径为：D:\Pycharm\Pycharm_file\InterFaceAutoTest\test_data\error_file\FeedBack_1748959622_4.xlsx
+2025-06-03 22:07:02,280 | INFO     | 数仓测试日志:success_log:78 | ✅ 测试用例04【验证通过】-上传失败-基础校验不通过
+2025-06-03 22:07:02,281 | INFO     | 数仓测试日志:tearDownClass:23 | 上传接口测试结束
+2025-06-04 10:51:10,361 | INFO     | 数仓测试日志:setUpClass:18 | 质检接口测试开始
+2025-06-04 10:51:14,492 | INFO     | 数仓测试日志:test_inspection_method:75 | 1.xlsx返回的异常文件已保存，保存路径为：D:\Pycharm\Pycharm_file\InterFaceAutoTest\test_data\error_file\FeedBack_1749005474_1.xlsx
+2025-06-04 10:51:14,517 | INFO     | 数仓测试日志:success_log:78 | ✅ 测试用例01【验证通过】-上传成功-一个文件至多只能有三个sheet：新增、删除、修改，每一类更新只能放在同一种sheet中
+2025-06-04 10:51:15,672 | INFO     | 数仓测试日志:test_inspection_method:75 | 2.xlsx返回的异常文件已保存，保存路径为：D:\Pycharm\Pycharm_file\InterFaceAutoTest\test_data\error_file\FeedBack_1749005475_2.xlsx
+2025-06-04 10:51:15,695 | INFO     | 数仓测试日志:success_log:78 | ✅ 测试用例02【验证通过】-上传失败-一个sheet中，其中一条记录未通过，则整个sheet的任意一条更新都不生效
+2025-06-04 10:51:21,254 | INFO     | 数仓测试日志:success_log:78 | ✅ 测试用例03【验证通过】-上传失败：多sheet多行数据
+2025-06-04 10:51:21,256 | INFO     | 数仓测试日志:tearDownClass:23 | 质检接口测试结束
+2025-06-04 10:51:21,259 | INFO     | 数仓测试日志:setUpClass:18 | 上传接口测试开始
+2025-06-04 10:51:24,508 | INFO     | 数仓测试日志:test_upload_method:148 | 1.xlsx返回的异常文件已保存，保存路径为：D:\Pycharm\Pycharm_file\InterFaceAutoTest\test_data\error_file\FeedBack_1749005482_1.xlsx
+2025-06-04 10:51:24,533 | INFO     | 数仓测试日志:success_log:78 | ✅ 测试用例01【验证通过】-上传成功-一个文件至多只能有三个sheet：新增、删除、修改，每一类更新只能放在同一种sheet中
+2025-06-04 10:51:26,506 | INFO     | 数仓测试日志:test_upload_method:148 | 2.xlsx返回的异常文件已保存，保存路径为：D:\Pycharm\Pycharm_file\InterFaceAutoTest\test_data\error_file\FeedBack_1749005485_2.xlsx
+2025-06-04 10:51:26,531 | INFO     | 数仓测试日志:success_log:78 | ✅ 测试用例02【验证通过】-上传失败-一个sheet中，其中一条记录未通过，则整个sheet的任意一条更新都不生效
+2025-06-04 10:51:28,833 | INFO     | 数仓测试日志:success_log:78 | ✅ 测试用例03【验证通过】-上传成功：多sheet多行数据
+2025-06-04 10:51:29,109 | INFO     | 数仓测试日志:test_upload_method:148 | 4.xlsx返回的异常文件已保存，保存路径为：D:\Pycharm\Pycharm_file\InterFaceAutoTest\test_data\error_file\FeedBack_1749005489_4.xlsx
+2025-06-04 10:51:29,124 | INFO     | 数仓测试日志:success_log:78 | ✅ 测试用例04【验证通过】-上传失败-基础校验不通过
+2025-06-04 10:51:29,125 | INFO     | 数仓测试日志:tearDownClass:23 | 上传接口测试结束
+2025-06-04 10:56:10,895 | INFO     | 数仓测试日志:setUpClass:20 | 质检接口测试开始
+2025-06-04 10:56:12,285 | INFO     | 数仓测试日志:test_inspection_method:75 | 1.xlsx返回的异常文件已保存，保存路径为：D:\Pycharm\Pycharm_file\InterFaceAutoTest\test_data\error_file\FeedBack_1749005772_1.xlsx
+2025-06-04 10:56:12,310 | INFO     | 数仓测试日志:success_log:80 | ✅ 测试用例01【验证通过】-上传成功-一个文件至多只能有三个sheet：新增、删除、修改，每一类更新只能放在同一种sheet中
+2025-06-04 10:56:13,501 | INFO     | 数仓测试日志:test_inspection_method:75 | 2.xlsx返回的异常文件已保存，保存路径为：D:\Pycharm\Pycharm_file\InterFaceAutoTest\test_data\error_file\FeedBack_1749005773_2.xlsx
+2025-06-04 10:56:13,524 | INFO     | 数仓测试日志:success_log:80 | ✅ 测试用例02【验证通过】-上传失败-一个sheet中，其中一条记录未通过，则整个sheet的任意一条更新都不生效
+2025-06-04 10:56:15,592 | INFO     | 数仓测试日志:success_log:80 | ✅ 测试用例03【验证通过】-上传失败：多sheet多行数据
+2025-06-04 10:56:15,596 | INFO     | 数仓测试日志:tearDownClass:25 | 质检接口测试结束
+2025-06-04 10:56:15,600 | INFO     | 数仓测试日志:setUpClass:20 | 上传接口测试开始
+2025-06-04 10:56:19,475 | INFO     | 数仓测试日志:test_upload_method:148 | 1.xlsx返回的异常文件已保存，保存路径为：D:\Pycharm\Pycharm_file\InterFaceAutoTest\test_data\error_file\FeedBack_1749005776_1.xlsx
+2025-06-04 10:56:19,500 | INFO     | 数仓测试日志:success_log:80 | ✅ 测试用例01【验证通过】-上传成功-一个文件至多只能有三个sheet：新增、删除、修改，每一类更新只能放在同一种sheet中
+2025-06-04 10:56:21,472 | INFO     | 数仓测试日志:test_upload_method:148 | 2.xlsx返回的异常文件已保存，保存路径为：D:\Pycharm\Pycharm_file\InterFaceAutoTest\test_data\error_file\FeedBack_1749005780_2.xlsx
+2025-06-04 10:56:21,497 | INFO     | 数仓测试日志:success_log:80 | ✅ 测试用例02【验证通过】-上传失败-一个sheet中，其中一条记录未通过，则整个sheet的任意一条更新都不生效
+2025-06-04 10:56:23,732 | INFO     | 数仓测试日志:success_log:80 | ✅ 测试用例03【验证通过】-上传成功：多sheet多行数据
+2025-06-04 10:56:24,019 | INFO     | 数仓测试日志:test_upload_method:148 | 4.xlsx返回的异常文件已保存，保存路径为：D:\Pycharm\Pycharm_file\InterFaceAutoTest\test_data\error_file\FeedBack_1749005783_4.xlsx
+2025-06-04 10:56:24,036 | INFO     | 数仓测试日志:success_log:80 | ✅ 测试用例04【验证通过】-上传失败-基础校验不通过
+2025-06-04 10:56:24,037 | INFO     | 数仓测试日志:tearDownClass:25 | 上传接口测试结束
+2025-06-05 11:48:45,397 | INFO     | 数仓测试日志:setUpClass:20 | 质检接口测试开始
+2025-06-05 11:48:48,397 | INFO     | 数仓测试日志:test_inspection_method:75 | 1.xlsx返回的异常文件已保存，保存路径为：D:\Pycharm\Pycharm_file\InterFaceAutoTest\test_data\error_file\FeedBack_1749095328_1.xlsx
+2025-06-05 11:48:48,420 | INFO     | 数仓测试日志:success_log:80 | ✅ 测试用例01【验证通过】-上传成功-一个文件至多只能有三个sheet：新增、删除、修改，每一类更新只能放在同一种sheet中
+2025-06-05 11:48:49,660 | INFO     | 数仓测试日志:test_inspection_method:75 | 2.xlsx返回的异常文件已保存，保存路径为：D:\Pycharm\Pycharm_file\InterFaceAutoTest\test_data\error_file\FeedBack_1749095329_2.xlsx
+2025-06-05 11:48:49,685 | INFO     | 数仓测试日志:success_log:80 | ✅ 测试用例02【验证通过】-上传失败-一个sheet中，其中一条记录未通过，则整个sheet的任意一条更新都不生效
+2025-06-05 11:48:55,811 | INFO     | 数仓测试日志:success_log:80 | ✅ 测试用例03【验证通过】-上传失败：多sheet多行数据
+2025-06-05 11:48:55,812 | INFO     | 数仓测试日志:tearDownClass:25 | 质检接口测试结束
+2025-06-05 11:48:55,814 | INFO     | 数仓测试日志:setUpClass:20 | 上传接口测试开始
+2025-06-05 11:49:01,011 | INFO     | 数仓测试日志:test_upload_method:123 | 1.xlsx返回的异常文件已保存，保存路径为：D:\Pycharm\Pycharm_file\InterFaceAutoTest\test_data\error_file\FeedBack_1749095337_1.xlsx
+2025-06-05 11:49:01,037 | INFO     | 数仓测试日志:success_log:80 | ✅ 测试用例01【验证通过】-上传成功-一个文件至多只能有三个sheet：新增、删除、修改，每一类更新只能放在同一种sheet中
+2025-06-05 11:49:04,279 | INFO     | 数仓测试日志:test_upload_method:123 | 2.xlsx返回的异常文件已保存，保存路径为：D:\Pycharm\Pycharm_file\InterFaceAutoTest\test_data\error_file\FeedBack_1749095343_2.xlsx
+2025-06-05 11:49:04,303 | INFO     | 数仓测试日志:success_log:80 | ✅ 测试用例02【验证通过】-上传失败-一个sheet中，其中一条记录未通过，则整个sheet的任意一条更新都不生效
+2025-06-05 11:49:06,899 | INFO     | 数仓测试日志:success_log:80 | ✅ 测试用例03【验证通过】-上传成功：多sheet多行数据
+2025-06-05 11:49:07,402 | INFO     | 数仓测试日志:test_upload_method:123 | 4.xlsx返回的异常文件已保存，保存路径为：D:\Pycharm\Pycharm_file\InterFaceAutoTest\test_data\error_file\FeedBack_1749095347_4.xlsx
+2025-06-05 11:49:07,419 | INFO     | 数仓测试日志:success_log:80 | ✅ 测试用例04【验证通过】-上传失败-基础校验不通过
+2025-06-05 11:49:07,420 | INFO     | 数仓测试日志:tearDownClass:25 | 上传接口测试结束
+2025-07-17 17:10:28,665 | INFO     | 数仓测试日志:setUpClass:20 | 质检接口测试开始
+2025-07-17 17:10:34,719 | INFO     | 数仓测试日志:test_inspection_method:75 | 1.xlsx返回的异常文件已保存，保存路径为：D:\Pycharm\Pycharm_file\InterFaceAutoTest\test_data\error_file\FeedBack_1752743434_1.xlsx
+2025-07-17 17:10:34,757 | INFO     | 数仓测试日志:success_log:80 | ✅ 测试用例01【验证通过】-上传成功-一个文件至多只能有三个sheet：新增、删除、修改，每一类更新只能放在同一种sheet中
+2025-07-17 17:10:35,490 | ERROR    | 数仓测试日志:assert_log:68 | 02-上传失败-一个sheet中，其中一条记录未通过，则整个sheet的任意一条更新都不生效：：测试失败
+Traceback (most recent call last):
+  File "D:\Pycharm\Pycharm_file\InterFaceAutoTest\test_cases\test_01_inspection.py", line 57, in test_inspection_method
+    self.assertIn(value, abnormal_sheet_message.values())
+  File "D:\Python\Lib\unittest\case.py", line 1152, in assertIn
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "D:\Python\Lib\unittest\case.py", line 715, in fail
+    raise self.failureException(msg)
+AssertionError: '人才学科变更' not found in dict_values([])
+2025-07-17 17:10:35,507 | ERROR    | 数仓测试日志:assert_log:69 | 请求数据是{'excelFile': '2.xlsx'}
+Traceback (most recent call last):
+  File "D:\Pycharm\Pycharm_file\InterFaceAutoTest\test_cases\test_01_inspection.py", line 57, in test_inspection_method
+    self.assertIn(value, abnormal_sheet_message.values())
+  File "D:\Python\Lib\unittest\case.py", line 1152, in assertIn
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "D:\Python\Lib\unittest\case.py", line 715, in fail
+    raise self.failureException(msg)
+AssertionError: '人才学科变更' not found in dict_values([])
+2025-07-17 17:10:35,507 | ERROR    | 数仓测试日志:assert_log:70 | 期望结果是{'新增明细': '人才学科变更'}
+Traceback (most recent call last):
+  File "D:\Pycharm\Pycharm_file\InterFaceAutoTest\test_cases\test_01_inspection.py", line 57, in test_inspection_method
+    self.assertIn(value, abnormal_sheet_message.values())
+  File "D:\Python\Lib\unittest\case.py", line 1152, in assertIn
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "D:\Python\Lib\unittest\case.py", line 715, in fail
+    raise self.failureException(msg)
+AssertionError: '人才学科变更' not found in dict_values([])
+2025-07-17 17:10:35,507 | ERROR    | 数仓测试日志:assert_log:71 | 实际结果是{}
+Traceback (most recent call last):
+  File "D:\Pycharm\Pycharm_file\InterFaceAutoTest\test_cases\test_01_inspection.py", line 57, in test_inspection_method
+    self.assertIn(value, abnormal_sheet_message.values())
+  File "D:\Python\Lib\unittest\case.py", line 1152, in assertIn
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "D:\Python\Lib\unittest\case.py", line 715, in fail
+    raise self.failureException(msg)
+AssertionError: '人才学科变更' not found in dict_values([])
+2025-07-17 17:10:44,612 | INFO     | 数仓测试日志:success_log:80 | ✅ 测试用例03【验证通过】-上传失败：多sheet多行数据
+2025-07-17 17:10:44,613 | INFO     | 数仓测试日志:tearDownClass:25 | 质检接口测试结束
+2025-07-17 17:10:44,616 | INFO     | 数仓测试日志:setUpClass:20 | 上传接口测试开始
+2025-07-17 17:10:47,055 | ERROR    | 数仓测试日志:task:97 | SQL 执行失败: select id from details.v_var_detail_xp where ver_no = 2027 and x ->> 'elected_year' = '2039', 错误: list index out of range
+2025-07-17 17:10:47,057 | ERROR    | 数仓测试日志:task:97 | SQL 执行失败: select id from details.v_var_detail_xp where ver_no = 2026 and x ->> 'elected_year' = '2038', 错误: list index out of range
+2025-07-17 17:10:49,768 | ERROR    | 数仓测试日志:assert_log:68 | 02-上传失败-一个sheet中，其中一条记录未通过，则整个sheet的任意一条更新都不生效：：测试失败
+Traceback (most recent call last):
+  File "D:\Pycharm\Pycharm_file\InterFaceAutoTest\test_cases\test_02_upload.py", line 69, in test_upload_method
+    self.assertIn(v, basic_validation_failed_sheet_message.values())
+  File "D:\Python\Lib\unittest\case.py", line 1152, in assertIn
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "D:\Python\Lib\unittest\case.py", line 715, in fail
+    raise self.failureException(msg)
+AssertionError: '人才学科变更' not found in dict_values(['暂未发现异常', '未通过基础校验，错误原因：与数据库已有数据重复'])
+2025-07-17 17:10:49,770 | ERROR    | 数仓测试日志:assert_log:69 | 请求数据是{'excelFile': '2.xlsx', 'ignoreexp': 0}
+Traceback (most recent call last):
+  File "D:\Pycharm\Pycharm_file\InterFaceAutoTest\test_cases\test_02_upload.py", line 69, in test_upload_method
+    self.assertIn(v, basic_validation_failed_sheet_message.values())
+  File "D:\Python\Lib\unittest\case.py", line 1152, in assertIn
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "D:\Python\Lib\unittest\case.py", line 715, in fail
+    raise self.failureException(msg)
+AssertionError: '人才学科变更' not found in dict_values(['暂未发现异常', '未通过基础校验，错误原因：与数据库已有数据重复'])
+2025-07-17 17:10:49,770 | ERROR    | 数仓测试日志:assert_log:70 | 期望结果是{'新增明细': '人才学科变更'}
+Traceback (most recent call last):
+  File "D:\Pycharm\Pycharm_file\InterFaceAutoTest\test_cases\test_02_upload.py", line 69, in test_upload_method
+    self.assertIn(v, basic_validation_failed_sheet_message.values())
+  File "D:\Python\Lib\unittest\case.py", line 1152, in assertIn
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "D:\Python\Lib\unittest\case.py", line 715, in fail
+    raise self.failureException(msg)
+AssertionError: '人才学科变更' not found in dict_values(['暂未发现异常', '未通过基础校验，错误原因：与数据库已有数据重复'])
+2025-07-17 17:10:49,772 | ERROR    | 数仓测试日志:assert_log:71 | 实际结果是{'修改明细': '暂未发现异常', '新增明细': '未通过基础校验，错误原因：与数据库已有数据重复'}
+Traceback (most recent call last):
+  File "D:\Pycharm\Pycharm_file\InterFaceAutoTest\test_cases\test_02_upload.py", line 69, in test_upload_method
+    self.assertIn(v, basic_validation_failed_sheet_message.values())
+  File "D:\Python\Lib\unittest\case.py", line 1152, in assertIn
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "D:\Python\Lib\unittest\case.py", line 715, in fail
+    raise self.failureException(msg)
+AssertionError: '人才学科变更' not found in dict_values(['暂未发现异常', '未通过基础校验，错误原因：与数据库已有数据重复'])
+2025-07-17 17:10:52,437 | INFO     | 数仓测试日志:success_log:80 | ✅ 测试用例03【验证通过】-上传成功：多sheet多行数据
+2025-07-17 17:10:52,729 | INFO     | 数仓测试日志:test_upload_method:123 | 4.xlsx返回的异常文件已保存，保存路径为：D:\Pycharm\Pycharm_file\InterFaceAutoTest\test_data\error_file\FeedBack_1752743452_4.xlsx
+2025-07-17 17:10:52,744 | INFO     | 数仓测试日志:success_log:80 | ✅ 测试用例04【验证通过】-上传失败-基础校验不通过
+2025-07-17 17:10:52,744 | INFO     | 数仓测试日志:tearDownClass:25 | 上传接口测试结束
+2025-07-17 18:27:45,271 | INFO     | 数仓测试日志:setUpClass:20 | 质检接口测试开始
+2025-07-17 18:27:48,574 | ERROR    | 数仓测试日志:assert_log:68 | 01-上传成功-一个文件至多只能有三个sheet：新增、删除、修改，每一类更新只能放在同一种sheet中：：测试失败
+Traceback (most recent call last):
+  File "D:\InterFaceAutoTest\test_cases\test_01_inspection.py", line 57, in test_inspection_method
+    self.assertIn(value, abnormal_sheet_message.values())
+  File "D:\Python\Lib\unittest\case.py", line 1152, in assertIn
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "D:\Python\Lib\unittest\case.py", line 715, in fail
+    raise self.failureException(msg)
+AssertionError: '人才学科变更' not found in dict_values([])
+2025-07-17 18:27:48,575 | ERROR    | 数仓测试日志:assert_log:69 | 请求数据是{'excelFile': '1.xlsx'}
+Traceback (most recent call last):
+  File "D:\InterFaceAutoTest\test_cases\test_01_inspection.py", line 57, in test_inspection_method
+    self.assertIn(value, abnormal_sheet_message.values())
+  File "D:\Python\Lib\unittest\case.py", line 1152, in assertIn
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "D:\Python\Lib\unittest\case.py", line 715, in fail
+    raise self.failureException(msg)
+AssertionError: '人才学科变更' not found in dict_values([])
+2025-07-17 18:27:48,575 | ERROR    | 数仓测试日志:assert_log:70 | 期望结果是{'新增明细': '人才学科变更', '修改明细': '近一年两个月工单更新过的学科被变更'}
+Traceback (most recent call last):
+  File "D:\InterFaceAutoTest\test_cases\test_01_inspection.py", line 57, in test_inspection_method
+    self.assertIn(value, abnormal_sheet_message.values())
+  File "D:\Python\Lib\unittest\case.py", line 1152, in assertIn
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "D:\Python\Lib\unittest\case.py", line 715, in fail
+    raise self.failureException(msg)
+AssertionError: '人才学科变更' not found in dict_values([])
+2025-07-17 18:27:48,576 | ERROR    | 数仓测试日志:assert_log:71 | 实际结果是{}
+Traceback (most recent call last):
+  File "D:\InterFaceAutoTest\test_cases\test_01_inspection.py", line 57, in test_inspection_method
+    self.assertIn(value, abnormal_sheet_message.values())
+  File "D:\Python\Lib\unittest\case.py", line 1152, in assertIn
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "D:\Python\Lib\unittest\case.py", line 715, in fail
+    raise self.failureException(msg)
+AssertionError: '人才学科变更' not found in dict_values([])
+2025-07-17 18:27:49,286 | ERROR    | 数仓测试日志:assert_log:68 | 02-上传失败-一个sheet中，其中一条记录未通过，则整个sheet的任意一条更新都不生效：：测试失败
+Traceback (most recent call last):
+  File "D:\InterFaceAutoTest\test_cases\test_01_inspection.py", line 57, in test_inspection_method
+    self.assertIn(value, abnormal_sheet_message.values())
+  File "D:\Python\Lib\unittest\case.py", line 1152, in assertIn
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "D:\Python\Lib\unittest\case.py", line 715, in fail
+    raise self.failureException(msg)
+AssertionError: '人才学科变更' not found in dict_values([])
+2025-07-17 18:27:49,286 | ERROR    | 数仓测试日志:assert_log:69 | 请求数据是{'excelFile': '2.xlsx'}
+Traceback (most recent call last):
+  File "D:\InterFaceAutoTest\test_cases\test_01_inspection.py", line 57, in test_inspection_method
+    self.assertIn(value, abnormal_sheet_message.values())
+  File "D:\Python\Lib\unittest\case.py", line 1152, in assertIn
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "D:\Python\Lib\unittest\case.py", line 715, in fail
+    raise self.failureException(msg)
+AssertionError: '人才学科变更' not found in dict_values([])
+2025-07-17 18:27:49,287 | ERROR    | 数仓测试日志:assert_log:70 | 期望结果是{'新增明细': '人才学科变更'}
+Traceback (most recent call last):
+  File "D:\InterFaceAutoTest\test_cases\test_01_inspection.py", line 57, in test_inspection_method
+    self.assertIn(value, abnormal_sheet_message.values())
+  File "D:\Python\Lib\unittest\case.py", line 1152, in assertIn
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "D:\Python\Lib\unittest\case.py", line 715, in fail
+    raise self.failureException(msg)
+AssertionError: '人才学科变更' not found in dict_values([])
+2025-07-17 18:27:49,287 | ERROR    | 数仓测试日志:assert_log:71 | 实际结果是{}
+Traceback (most recent call last):
+  File "D:\InterFaceAutoTest\test_cases\test_01_inspection.py", line 57, in test_inspection_method
+    self.assertIn(value, abnormal_sheet_message.values())
+  File "D:\Python\Lib\unittest\case.py", line 1152, in assertIn
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "D:\Python\Lib\unittest\case.py", line 715, in fail
+    raise self.failureException(msg)
+AssertionError: '人才学科变更' not found in dict_values([])
+2025-07-17 18:27:53,962 | ERROR    | 数仓测试日志:assert_log:68 | 03-上传失败：多sheet多行数据：：测试失败
+Traceback (most recent call last):
+  File "D:\InterFaceAutoTest\test_cases\test_01_inspection.py", line 57, in test_inspection_method
+    self.assertIn(value, abnormal_sheet_message.values())
+  File "D:\Python\Lib\unittest\case.py", line 1152, in assertIn
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "D:\Python\Lib\unittest\case.py", line 715, in fail
+    raise self.failureException(msg)
+AssertionError: 200 not found in dict_values([])
+2025-07-17 18:27:53,963 | ERROR    | 数仓测试日志:assert_log:69 | 请求数据是{'excelFile': '3.xlsx'}
+Traceback (most recent call last):
+  File "D:\InterFaceAutoTest\test_cases\test_01_inspection.py", line 57, in test_inspection_method
+    self.assertIn(value, abnormal_sheet_message.values())
+  File "D:\Python\Lib\unittest\case.py", line 1152, in assertIn
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "D:\Python\Lib\unittest\case.py", line 715, in fail
+    raise self.failureException(msg)
+AssertionError: 200 not found in dict_values([])
+2025-07-17 18:27:53,963 | ERROR    | 数仓测试日志:assert_log:70 | 期望结果是{'code': 200, 'msg': 'success'}
+Traceback (most recent call last):
+  File "D:\InterFaceAutoTest\test_cases\test_01_inspection.py", line 57, in test_inspection_method
+    self.assertIn(value, abnormal_sheet_message.values())
+  File "D:\Python\Lib\unittest\case.py", line 1152, in assertIn
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "D:\Python\Lib\unittest\case.py", line 715, in fail
+    raise self.failureException(msg)
+AssertionError: 200 not found in dict_values([])
+2025-07-17 18:27:53,964 | ERROR    | 数仓测试日志:assert_log:71 | 实际结果是{}
+Traceback (most recent call last):
+  File "D:\InterFaceAutoTest\test_cases\test_01_inspection.py", line 57, in test_inspection_method
+    self.assertIn(value, abnormal_sheet_message.values())
+  File "D:\Python\Lib\unittest\case.py", line 1152, in assertIn
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "D:\Python\Lib\unittest\case.py", line 715, in fail
+    raise self.failureException(msg)
+AssertionError: 200 not found in dict_values([])
+2025-07-17 18:27:53,965 | INFO     | 数仓测试日志:tearDownClass:25 | 质检接口测试结束
+2025-07-17 18:28:30,564 | INFO     | 数仓测试日志:setUpClass:20 | 质检接口测试开始
+2025-07-17 18:28:31,462 | ERROR    | 数仓测试日志:assert_log:68 | 01-上传成功-一个文件至多只能有三个sheet：新增、删除、修改，每一类更新只能放在同一种sheet中：：测试失败
+Traceback (most recent call last):
+  File "D:\InterFaceAutoTest\test_cases\test_01_inspection.py", line 57, in test_inspection_method
+    self.assertIn(value, abnormal_sheet_message.values())
+  File "D:\Python\Lib\unittest\case.py", line 1152, in assertIn
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "D:\Python\Lib\unittest\case.py", line 715, in fail
+    raise self.failureException(msg)
+AssertionError: '人才学科变更' not found in dict_values([])
+2025-07-17 18:28:31,464 | ERROR    | 数仓测试日志:assert_log:69 | 请求数据是{'excelFile': '1.xlsx'}
+Traceback (most recent call last):
+  File "D:\InterFaceAutoTest\test_cases\test_01_inspection.py", line 57, in test_inspection_method
+    self.assertIn(value, abnormal_sheet_message.values())
+  File "D:\Python\Lib\unittest\case.py", line 1152, in assertIn
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "D:\Python\Lib\unittest\case.py", line 715, in fail
+    raise self.failureException(msg)
+AssertionError: '人才学科变更' not found in dict_values([])
+2025-07-17 18:28:31,465 | ERROR    | 数仓测试日志:assert_log:70 | 期望结果是{'新增明细': '人才学科变更', '修改明细': '近一年两个月工单更新过的学科被变更'}
+Traceback (most recent call last):
+  File "D:\InterFaceAutoTest\test_cases\test_01_inspection.py", line 57, in test_inspection_method
+    self.assertIn(value, abnormal_sheet_message.values())
+  File "D:\Python\Lib\unittest\case.py", line 1152, in assertIn
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "D:\Python\Lib\unittest\case.py", line 715, in fail
+    raise self.failureException(msg)
+AssertionError: '人才学科变更' not found in dict_values([])
+2025-07-17 18:28:31,465 | ERROR    | 数仓测试日志:assert_log:71 | 实际结果是{}
+Traceback (most recent call last):
+  File "D:\InterFaceAutoTest\test_cases\test_01_inspection.py", line 57, in test_inspection_method
+    self.assertIn(value, abnormal_sheet_message.values())
+  File "D:\Python\Lib\unittest\case.py", line 1152, in assertIn
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "D:\Python\Lib\unittest\case.py", line 715, in fail
+    raise self.failureException(msg)
+AssertionError: '人才学科变更' not found in dict_values([])
+2025-07-17 18:28:32,153 | ERROR    | 数仓测试日志:assert_log:68 | 02-上传失败-一个sheet中，其中一条记录未通过，则整个sheet的任意一条更新都不生效：：测试失败
+Traceback (most recent call last):
+  File "D:\InterFaceAutoTest\test_cases\test_01_inspection.py", line 57, in test_inspection_method
+    self.assertIn(value, abnormal_sheet_message.values())
+  File "D:\Python\Lib\unittest\case.py", line 1152, in assertIn
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "D:\Python\Lib\unittest\case.py", line 715, in fail
+    raise self.failureException(msg)
+AssertionError: '人才学科变更' not found in dict_values([])
+2025-07-17 18:28:32,154 | ERROR    | 数仓测试日志:assert_log:69 | 请求数据是{'excelFile': '2.xlsx'}
+Traceback (most recent call last):
+  File "D:\InterFaceAutoTest\test_cases\test_01_inspection.py", line 57, in test_inspection_method
+    self.assertIn(value, abnormal_sheet_message.values())
+  File "D:\Python\Lib\unittest\case.py", line 1152, in assertIn
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "D:\Python\Lib\unittest\case.py", line 715, in fail
+    raise self.failureException(msg)
+AssertionError: '人才学科变更' not found in dict_values([])
+2025-07-17 18:28:32,154 | ERROR    | 数仓测试日志:assert_log:70 | 期望结果是{'新增明细': '人才学科变更'}
+Traceback (most recent call last):
+  File "D:\InterFaceAutoTest\test_cases\test_01_inspection.py", line 57, in test_inspection_method
+    self.assertIn(value, abnormal_sheet_message.values())
+  File "D:\Python\Lib\unittest\case.py", line 1152, in assertIn
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "D:\Python\Lib\unittest\case.py", line 715, in fail
+    raise self.failureException(msg)
+AssertionError: '人才学科变更' not found in dict_values([])
+2025-07-17 18:28:32,154 | ERROR    | 数仓测试日志:assert_log:71 | 实际结果是{}
+Traceback (most recent call last):
+  File "D:\InterFaceAutoTest\test_cases\test_01_inspection.py", line 57, in test_inspection_method
+    self.assertIn(value, abnormal_sheet_message.values())
+  File "D:\Python\Lib\unittest\case.py", line 1152, in assertIn
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "D:\Python\Lib\unittest\case.py", line 715, in fail
+    raise self.failureException(msg)
+AssertionError: '人才学科变更' not found in dict_values([])
+2025-07-17 18:28:33,075 | ERROR    | 数仓测试日志:assert_log:68 | 03-上传失败：多sheet多行数据：：测试失败
+Traceback (most recent call last):
+  File "D:\InterFaceAutoTest\test_cases\test_01_inspection.py", line 57, in test_inspection_method
+    self.assertIn(value, abnormal_sheet_message.values())
+  File "D:\Python\Lib\unittest\case.py", line 1152, in assertIn
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "D:\Python\Lib\unittest\case.py", line 715, in fail
+    raise self.failureException(msg)
+AssertionError: 200 not found in dict_values([])
+2025-07-17 18:28:33,075 | ERROR    | 数仓测试日志:assert_log:69 | 请求数据是{'excelFile': '3.xlsx'}
+Traceback (most recent call last):
+  File "D:\InterFaceAutoTest\test_cases\test_01_inspection.py", line 57, in test_inspection_method
+    self.assertIn(value, abnormal_sheet_message.values())
+  File "D:\Python\Lib\unittest\case.py", line 1152, in assertIn
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "D:\Python\Lib\unittest\case.py", line 715, in fail
+    raise self.failureException(msg)
+AssertionError: 200 not found in dict_values([])
+2025-07-17 18:28:33,076 | ERROR    | 数仓测试日志:assert_log:70 | 期望结果是{'code': 200, 'msg': 'success'}
+Traceback (most recent call last):
+  File "D:\InterFaceAutoTest\test_cases\test_01_inspection.py", line 57, in test_inspection_method
+    self.assertIn(value, abnormal_sheet_message.values())
+  File "D:\Python\Lib\unittest\case.py", line 1152, in assertIn
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "D:\Python\Lib\unittest\case.py", line 715, in fail
+    raise self.failureException(msg)
+AssertionError: 200 not found in dict_values([])
+2025-07-17 18:28:33,076 | ERROR    | 数仓测试日志:assert_log:71 | 实际结果是{}
+Traceback (most recent call last):
+  File "D:\InterFaceAutoTest\test_cases\test_01_inspection.py", line 57, in test_inspection_method
+    self.assertIn(value, abnormal_sheet_message.values())
+  File "D:\Python\Lib\unittest\case.py", line 1152, in assertIn
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "D:\Python\Lib\unittest\case.py", line 715, in fail
+    raise self.failureException(msg)
+AssertionError: 200 not found in dict_values([])
+2025-07-17 18:28:33,078 | INFO     | 数仓测试日志:tearDownClass:25 | 质检接口测试结束
